@@ -1,5 +1,8 @@
 {
 .appVersion = "911";
+DisplayStrings = (
+/CR
+);
 copyright = "Copyright (c) 2011, Agustina Mingote (agustinamingote@gmail.com), Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@gmail.com), with Reserved Font Name 'Homenaje'";
 customParameters = (
 {
@@ -15121,6 +15124,17 @@ width = 150;
 }
 );
 unicode = 0020;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = UUID0;
+width = 150;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
 },
 {
 glyphname = CR;
