@@ -1,7 +1,8 @@
 {
 .appVersion = "911";
 DisplayStrings = (
-/CR
+/CR,
+"\U00C7"
 );
 copyright = "Copyright (c) 2011, Agustina Mingote (agustinamingote@gmail.com), Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@gmail.com), with Reserved Font Name 'Homenaje'";
 customParameters = (
@@ -31,6 +32,14 @@ value = (
 0,
 0
 );
+},
+{
+name = fsType;
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2009-09-26 19:09:45 +0000";
@@ -78,12 +87,12 @@ alignmentZones = (
 "{0, -7}",
 "{-160, 0}"
 );
-ascender = 892;
+ascender = 700;
 capHeight = 700;
 customParameters = (
 {
 name = typoDescender;
-value = -204;
+value = -160;
 },
 {
 name = typoLineGap;
@@ -95,26 +104,26 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 892;
+value = 1090;
 },
 {
 name = typoAscender;
-value = 892;
+value = 1090;
 },
 {
 name = hheaDescender;
-value = -204;
+value = -160;
 },
 {
 name = winDescent;
-value = 204;
+value = 160;
 },
 {
 name = winAscent;
-value = 892;
+value = 1090;
 }
 );
-descender = -204;
+descender = -160;
 horizontalStems = (
 66,
 60
@@ -19127,6 +19136,40 @@ unicode = E002;
 disablesAutomaticAlignment = 1;
 instances = (
 {
+customParameters = (
+{
+name = typoDescender;
+value = -160;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1090;
+},
+{
+name = typoAscender;
+value = 1090;
+},
+{
+name = hheaDescender;
+value = -160;
+},
+{
+name = winDescent;
+value = 204;
+},
+{
+name = winAscent;
+value = 892;
+}
+);
 instanceInterpolations = {
 UUID0 = 1;
 };
