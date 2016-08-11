@@ -33,6 +33,40 @@ value = (
 date = "2009-09-26 19:09:45 +0000";
 designer = "Constanza Artigas Preller, Agustina Mingote";
 familyName = Homenaje;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;\012feature sups;\012feature frac;\012feature ordn;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012";
+name = locl;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
