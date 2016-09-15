@@ -1,10 +1,6 @@
 {
-.appVersion = "911";
-DisplayStrings = (
-/CR,
-"\U00C7"
-);
-copyright = "Copyright (c) 2011, Agustina Mingote (agustinamingote@gmail.com), Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@gmail.com), with Reserved Font Name 'Homenaje'";
+.appVersion = "919";
+copyright = "Copyright The Homenaje Project Authors (agustinamingote@gmail.com | artigasconstanza@gmail.com)";
 customParameters = (
 {
 name = licenseURL;
@@ -19,23 +15,9 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
-name = panose;
-value = (
-2,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
 name = fsType;
-value = 0;
+value = (
+);
 },
 {
 name = "Use Typo Metrics";
@@ -15147,14 +15129,14 @@ unicode = 00A0;
 },
 {
 glyphname = CR;
-lastChange = "2016-08-11 09:46:07 +0000";
+lastChange = "2016-09-15 08:49:48 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 230;
+width = 150;
 }
 );
-unicode = E001;
+unicode = 000D;
 },
 {
 glyphname = .notdef;
@@ -15168,14 +15150,13 @@ width = 230;
 },
 {
 glyphname = .null;
-lastChange = "2016-08-11 09:46:07 +0000";
+lastChange = "2016-09-15 08:49:14 +0000";
 layers = (
 {
 layerId = UUID0;
 width = 0;
 }
 );
-unicode = E000;
 },
 {
 glyphname = Euro;
@@ -19055,6 +19036,16 @@ width = 395;
 unicode = 02DC;
 },
 {
+glyphname = NULL;
+lastChange = "2016-09-15 08:49:48 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 0;
+}
+);
+},
+{
 glyphname = cruz1;
 lastChange = "2016-08-11 09:52:52 +0000";
 layers = (
@@ -19168,6 +19159,14 @@ value = 204;
 {
 name = winAscent;
 value = 892;
+},
+{
+name = postscriptFullName;
+value = "Homenaje Regular";
+},
+{
+name = compatibleFullName;
+value = "Homenaje Regular";
 }
 );
 instanceInterpolations = {
@@ -19200,5 +19199,5 @@ T = {
 manufacturer = "Constanza Artigas Preller, Agustina Mingote";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 102;
+versionMinor = 100;
 }
