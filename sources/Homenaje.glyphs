@@ -1,6 +1,6 @@
 {
-.appVersion = "919";
-copyright = "Copyright The Homenaje Project Authors (agustinamingote@gmail.com | artigasconstanza@gmail.com)";
+.appVersion = "924";
+copyright = "Copyright The Homenaje Project Authors";
 customParameters = (
 {
 name = licenseURL;
@@ -15149,16 +15149,6 @@ width = 230;
 );
 },
 {
-glyphname = .null;
-lastChange = "2016-09-15 08:49:14 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 0;
-}
-);
-},
-{
 glyphname = Euro;
 lastChange = "2016-08-11 09:52:52 +0000";
 layers = (
@@ -19037,13 +19027,14 @@ unicode = 02DC;
 },
 {
 glyphname = NULL;
-lastChange = "2016-09-15 08:49:48 +0000";
+lastChange = "2016-10-01 10:06:33 +0000";
 layers = (
 {
 layerId = UUID0;
 width = 0;
 }
 );
+unicode = 0000;
 },
 {
 glyphname = cruz1;
@@ -19159,14 +19150,6 @@ value = 204;
 {
 name = winAscent;
 value = 892;
-},
-{
-name = postscriptFullName;
-value = "Homenaje Regular";
-},
-{
-name = compatibleFullName;
-value = "Homenaje Regular";
 }
 );
 instanceInterpolations = {
