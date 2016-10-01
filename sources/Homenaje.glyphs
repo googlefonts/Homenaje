@@ -1,6 +1,6 @@
 {
 .appVersion = "924";
-copyright = "Copyright The Homenaje Project Authors";
+copyright = "Copyright 2016 The Homenaje Project Authors";
 customParameters = (
 {
 name = licenseURL;
