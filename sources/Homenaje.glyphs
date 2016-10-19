@@ -1,5 +1,5 @@
 {
-.appVersion = "924";
+.appVersion = "926";
 copyright = "Copyright 2016 The Homenaje Project Authors";
 customParameters = (
 {
@@ -26,6 +26,7 @@ value = 1;
 );
 date = "2009-09-26 19:09:45 +0000";
 designer = "Constanza Artigas Preller, Agustina Mingote";
+disablesAutomaticAlignment = 1;
 familyName = Homenaje;
 featurePrefixes = (
 {
@@ -73,36 +74,32 @@ ascender = 700;
 capHeight = 700;
 customParameters = (
 {
+name = typoAscender;
+value = 892;
+},
+{
 name = typoDescender;
-value = -160;
+value = -204;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = hheaLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 1090;
-},
-{
-name = typoAscender;
-value = 1090;
-},
-{
-name = hheaDescender;
-value = -160;
+name = winAscent;
+value = 1116;
 },
 {
 name = winDescent;
-value = 160;
+value = 163;
 },
 {
-name = winAscent;
-value = 1090;
+name = hheaAscender;
+value = 892;
+},
+{
+name = hheaDescender;
+value = -204;
 }
 );
 descender = -160;
@@ -19115,43 +19112,8 @@ width = 604;
 unicode = E002;
 }
 );
-disablesAutomaticAlignment = 1;
 instances = (
 {
-customParameters = (
-{
-name = typoDescender;
-value = -160;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 1090;
-},
-{
-name = typoAscender;
-value = 1090;
-},
-{
-name = hheaDescender;
-value = -160;
-},
-{
-name = winDescent;
-value = 204;
-},
-{
-name = winAscent;
-value = 892;
-}
-);
 instanceInterpolations = {
 UUID0 = 1;
 };
