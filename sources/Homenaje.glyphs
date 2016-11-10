@@ -1,6 +1,6 @@
 {
-.appVersion = "926";
-copyright = "Copyright 2016 The Homenaje Project Authors";
+.appVersion = "930";
+copyright = "Copyright 2016 The Homenaje Project Authors (https://github.com/googlefonts/Homenaje), with Reserved Font Name 'Homenaje’.";
 customParameters = (
 {
 name = licenseURL;
@@ -26,6 +26,7 @@ value = 1;
 );
 date = "2009-09-26 19:09:45 +0000";
 designer = "Constanza Artigas Preller, Agustina Mingote";
+designerURL = "agustinamingote@gmail.com";
 disablesAutomaticAlignment = 1;
 familyName = Homenaje;
 featurePrefixes = (
@@ -19142,6 +19143,7 @@ T = {
 };
 };
 manufacturer = "Constanza Artigas Preller, Agustina Mingote";
+manufacturerURL = "agustinamingote@gmail.com";
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 100;
